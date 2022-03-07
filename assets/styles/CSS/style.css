@@ -13,3 +13,20 @@ main [data-aos=highlight-animation] {
 main [data-aos=highlight-animation].aos-animate {
   --width: 100% ;
 }
+
+footer {
+  max-width: 1200px;
+  margin: auto;
+  font-family: sans-serif;
+}
+footer p {
+  text-align: center;
+}
+footer p a {
+  text-decoration: none;
+  color: #197136;
+  font-weight: 600;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
