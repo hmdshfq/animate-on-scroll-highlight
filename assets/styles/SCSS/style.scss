@@ -4,10 +4,10 @@ main{
     max-width: 65ch;
     margin: auto;
     font-size: 1.3rem;
-    padding: 80px 30px;
+    padding: 40px 30px;
+    margin-bottom: 100px;
     [data-aos='highlight-animation']{
         background: linear-gradient(hsl(56 100% 53% / 0.8) 0 0) 0 100% / var(--width, 0) 10px no-repeat;
-        transition: background 0.5s;
         &.aos-animate{
             --width: 100%
         }
